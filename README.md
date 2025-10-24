@@ -1,31 +1,25 @@
-# counter
+# Counter Program
+Allows users to store a non-negative integer count on the blockchain and provides helpers to increment, decrement and set it to a particular number.
+## User Stories
+### Wallet Connection
+- As a user, when I connect my wallet to the programe, I should be able to initialize a counter.
+- As a user, when I connect my wallet to the programe, I should be able to close a counter.
+- As a user, when I do not connect my wallet to the programme, I should not be able to initialize a counter
 
-This is a Next.js app containing:
+### Counter manipulation
+- As a user, when I increment a counter, the count should incremented by 1.
+- As a user, when I decrement a counter, the count should decremented by 1.
+- As a user, when I reset a counter and enter a number, the count should be set to that number.
 
-- Tailwind and Shadcn UI for styling
-- [Gill](https://gill.site/) Solana SDK
-- Shadcn [Wallet UI](https://registry.wallet-ui.dev) components
-- A basic Counter Solana program written in Anchor
-- [codama](https://github.com/codama-idl/codama) to generate a JS sdk for the program
-- UI components for interacting with the program
-
+## Architectural Diagram
+![image](Untitled-2025-09-01-2025.png)
 ## Getting Started
 
-### Installation
-
-#### Download the template
-
-```shell
-npx create-solana-dapp@latest -t gh:solana-foundation/templates/gill/counter
-```
-
-#### Install Dependencies
+### Install Dependencies
 
 ```shell
 npm install
 ```
-
-## Apps
 
 ### anchor
 

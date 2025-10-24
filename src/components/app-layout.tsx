@@ -25,7 +25,7 @@ export function AppLayout({
           </ClusterUiChecker>
           {children}
         </main>
-        <AppFooter />
+        {/* <AppFooter /> */}
       </div>
       <Toaster closeButton />
     </ThemeProvider>
